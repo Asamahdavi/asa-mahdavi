@@ -1,13 +1,26 @@
-<html>
-  <head> </head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Programming Assignment 3</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta name="keyWords" content="Web, Html Meta Tags, Html, Meta, Icon" />
+    <meta
+      name="description"
+      content="This Asa Mahdavi`s third Web programming Assignment"
+    />
+    <meta name="author" content="Asa Mahdavi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
   <body>
-    <header>
+    <header style="text-align: center">
       <h1>Paris</h1>
       <hr />
       <h5>
         <small>From Wikipedia, the free encyclopedia</small>
       </h5>
     </header>
+
     <h4>
       <i>
         This article is about the capital of France. For other uses,
@@ -23,7 +36,7 @@
 
     <br />
 
-    <p>
+    <p style="padding: 50px">
       &emsp; &emsp; <b>Paris</b> (<small
         >French pronunciation: ​[paʁi]
         <cite>(About this soundlisten)</cite></small
@@ -43,7 +56,25 @@
       ranked Paris as most expensive, on par with Singapore and Hong Kong, in
       2018.<sup>[8][9]</sup>
     </p>
-    <img src="paris.jpg" alt="Paris" width="500" height="300" />
+    <div style="display: flex">
+      <img
+        style="border-radius: 20px"
+        src="paris.jpg"
+        alt="Paris"
+        width="500"
+        height="300"
+      />
+      <div style="padding: 20px">
+        <h3>Contents</h3>
+        <ul>
+          <li><a href="#one">Etymology</a></li>
+          <li><a href="#two">History</a></li>
+          <li><a href="#three">Culture</a></li>
+          <li><a href="#four">Education</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
     <p>
       &emsp; &emsp; Paris is a major railway, highway, and air-transport hub
       served by two international airports: Paris–Charles de Gaulle (<small
@@ -78,26 +109,59 @@
       its Basilica of Sacré-Coeur.
     </p>
     <hr />
-    <h3>Contents</h3>
-    <ul>
-      <li>Etymology</li>
-      <li>History</li>
-      <li>Culture</li>
-      <li>Education</li>
-    </ul>
-    <hr />
+
+    <h3 id="one">Etymology</h3>
     <p>
-      &emsp; &emsp; The football club Paris Saint-Germain and the rugby union
-      club Stade Français are based in Paris. The 80,000-seat Stade de France,
-      built for the 1998 FIFA World Cup, is located just north of Paris in the
-      neighbouring commune of Saint-Denis. Paris hosts the annual French Open
-      Grand Slam tennis tournament on the red clay of Roland Garros. The city
-      hosted the Olympic Games in 1900, 1924 and will host the 2024 Summer
-      Olympics. The 1938 and 1998 FIFA World Cups, the 2007 Rugby World Cup, as
-      well as the 1960, 1984 and 2016 UEFA European Championships were also held
-      in the city. Every July, the Tour de France bicycle race finishes on the
-      Avenue des Champs-Élysées in Paris.
+      &emsp; &emsp; The ancient oppidum that corresponds to the modern city of
+      Paris was first mentioned in the mid-1st century BC by Julius Caesar as
+      Luteciam Parisiorum ('Lutetia of the Parisii'), and is later attested as
+      Parision in the 5th century AD, then as Paris in 1265. During the Roman
+      period, it was commonly known as Lutetia or Lutecia in Latin, and as
+      Leukotekía in Greek, which is interpreted as either stemming from the
+      Celtic root *lukot- ('mouse'), or from *luto- ('marsh, swamp'), depending
+      on whether the Latin or Greek form is the closest to the original Gaulish
+      name
     </p>
+    <h3 id="two">History</h3>
+    <p>
+      &emsp; &emsp; The Parisii, a sub-tribe of the Celtic Senones, inhabited
+      the Paris area from around the middle of the 3rd century BC One of the
+      area's major north–south trade routes crossed the Seine on the île de la
+      Cité; this meeting place of land and water trade routes gradually became
+      an important trading centre. The Parisii traded with many river towns
+      (some as far away as the Iberian Peninsula) and minted their own coins for
+      that purpose.
+    </p>
+    <h3 id="three">Culture</h3>
+    <p>
+      &emsp; &emsp;For centuries, Paris has attracted artists from around the
+      world, who arrive in the city to educate themselves and to seek
+      inspiration from its vast pool of artistic resources and galleries. As a
+      result, Paris has acquired a reputation as the "City of Art". Italian
+      artists were a profound influence on the development of art in Paris in
+      the 16th and 17th centuries, particularly in sculpture and reliefs.
+      Painting and sculpture became the pride of the French monarchy and the
+      French royal family commissioned many Parisian artists to adorn their
+      palaces during the French Baroque and Classicism era. Sculptors such as
+      Girardon, Coysevox and Coustou acquired reputations as the finest artists
+      in the royal court in 17th-century France. Pierre Mignard became the first
+      painter to King Louis XIV during this period. In 1648, the Académie royale
+      de peinture et de sculpture (Royal Academy of Painting and Sculpture) was
+      established to accommodate for the dramatic interest in art in the
+      capital. This served as France's top art school until 1793.
+    </p>
+    <h3 id="four">Education</h3>
+    <p>
+      &emsp; &emsp; Paris is the département with the highest proportion of
+      highly educated people. In 2009, around 40 percent of Parisians held a
+      licence-level diploma or higher, the highest proportion in France, while
+      13 percent have no diploma, the third-lowest percentage in France.
+      Education in Paris and the Île-de-France region employs approximately
+      330,000 people, 170,000 of whom are teachers and professors teaching
+      approximately 2.9 million children and students in around 9,000 primary,
+      secondary, and higher education schools and institutions
+    </p>
+
     <table>
       <tr>
         <th>Country</th>
@@ -121,5 +185,14 @@
         <td>&emsp; 2,853.5 km2 (Urban)</td>
       </tr>
     </table>
+    <section>
+      <video src="sample-video.mp4" controls height="150px"></video>
+    </section>
+
+    <footer>
+      <hr />
+      <p>Have a nice day</p>
+      <hr />
+    </footer>
   </body>
 </html>

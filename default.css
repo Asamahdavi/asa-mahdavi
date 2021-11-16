@@ -112,5 +112,17 @@ input {
 input[type="text"]:focus {
   background-color: lightblue;
 }
-.search {
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
+#prag,
+#table,
+#video {
+  flex: none;
+  width: 30%;
+  margin: 10px auto;
 }

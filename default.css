@@ -1,6 +1,5 @@
 * {
   font-family: "Didact Gothic", sans-serif;
-  background-color: #f1eef6;
 }
 
 header {
@@ -125,4 +124,23 @@ input[type="text"]:focus {
   flex: none;
   width: 30%;
   margin: 10px auto;
+}
+.dark-mode {
+  background-color: rgb(58, 58, 58);
+  color: rgb(255, 255, 255);
+}
+.dark-mode-header {
+  background-color: rgb(58, 58, 58);
+  color: rgb(255, 255, 255);
+}
+.navbar-dark-mode {
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+.table-dark-mode {
+  background-color: blue;
+  color: white;
+}
+button {
+  margin: 10px;
 }

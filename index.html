@@ -38,10 +38,32 @@
           >
         </i>
       </h4>
+
       <form>
         <input type="text" id="search" name="search" /><br /><br />
         <input type="submit" value="search" />
       </form>
+
+      <button onclick="changeMod()">dark/light mode</button>
+
+      <script>
+        function changeMod() {
+          var v = document.body;
+          v.classList.toggle("dark-mode");
+
+          var v01 = document.querySelectorAll("header");
+          var i;
+          for (i = 0; i < v01.length; i++) {
+            v01[i].classList.toggle("dark-mode-header");
+          }
+
+          var v02 = document.querySelectorAll("ul,li,a");
+          var j;
+          for (j = 0; j < v02.length; j++) {
+            v02[j].classList.toggle("navbar-dark-mode");
+          }
+        }
+      </script>
     </div>
 
     <div class="grid-co">

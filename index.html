@@ -12,6 +12,8 @@
     <meta name="author" content="Asa Mahdavi" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="default.css" />
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <ul>
@@ -29,6 +31,7 @@
       </h5>
     </header>
 
+    <button id="tHeader-btn">Hide/Hhow Header</button>
     <div class="search">
       <h4 class="title">
         <i>
@@ -66,7 +69,7 @@
       </script>
     </div>
 
-    <div class="grid-co">
+    <div class="grid-co" id="search-area">
       <p class="grid-item">
         &emsp; &emsp; <b>Paris</b> (<small
           >French pronunciation: ​[paʁi]
@@ -140,7 +143,7 @@
     </div>
 
     <hr />
-    <section class="container">
+    <section class="container" id="search-area">
       <section id="table">
         <div class="table-section">
           <table id="city-table">
